@@ -1,18 +1,94 @@
 *{
-background-color: blueviolet;
+    margin: 0;
+background-color: #222831;
 
 }
 
+
 h1{
-    background-color: green;
-    font-family: 'Nabla', cursive;
+    background-color: #00ADB5;
+    font-family: 'Source Code Pro', monospace;
     font-size: xxx-large;
     text-align: center;
     font-size: 60px;
+   color: #F4EEFF;
 }
 h2{
-    background-color: aquamarine;
+    background-color: #9A3B3B;
     font-family: 'Rubik Iso', cursive;
     text-align:center;
     font-size: 40px; 
+    margin-top: 0.3%;
+}
+.first{
+    color: #f2f2f2;
+}
+ol {
+    border: 2px solid #222831 ;
+    display: flex;
+    list-style-type: none;
+    gap: 5%;
+    font-size: x-large;
+    text-transform: uppercase;
+    margin-left: 50%;
+    margin-top: 3%;
+    border-radius: 5cap;
+}
+ol, li {
+    /* background-color: #9A3B3B; */
+}
+.first ol li:hover{
+    background-color: #ddd;
+    color: black;
+}
+.intro{
+    color: red;
+    padding: 10%;
+}
+.name{
+    color:yellow;
+}
+h4,h3{
+    text-align: center;
+    font-size: xxx-large;
+}
+.id, .di {
+    text-align: center;
+    font-size:large;
+    color: white;
+}
+.id{
+    margin-top: 3%;
+}
+.di{
+    text-transform: uppercase;
+}
+.git{
+    height: 30px;
+    margin-top: 3%;
+    margin-left:  50%;
+    box-shadow: 0.60px 0.12px 5px #F4EEFF;
+    border-radius: 30px;
+    transition: 0.1s ease;
+}
+.git:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 2s ease;
+}
+
+.lin{
+    height: 30px;
+    margin-top: 3%; 
+    margin-left: -7%;
+    box-shadow: 0.60px 0.12px 5px #F4EEFF;
+    border-radius: 30px;
+    transition: 0.1s ease;
+}
+.lin:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 2s ease;
 }
