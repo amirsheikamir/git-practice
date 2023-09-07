@@ -1,8 +1,10 @@
 *{
 background-color: blueviolet;
-font-family: fantasy;
+font-family: 'Nabla', cursive;
 }
 
-.h1{
-    background-color: red;
+h1{
+    background-color: green;
+    font-size: xxx-large;
+    text-align: center;
 }

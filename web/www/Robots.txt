@@ -1,3 +1,2 @@
 /login.html
-/sitemap.html
 /admin.login
