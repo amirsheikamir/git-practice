@@ -1,10 +1,16 @@
 *{
 background-color: blueviolet;
-font-family: 'Nabla', cursive;
+
 }
 
 h1{
     background-color: green;
+    font-family: 'Nabla', cursive;
     font-size: xxx-large;
     text-align: center;
+}
+h2{
+    background-color: aquamarine;
+    font-family: 'Rubik Iso', cursive;
+    text-align:center;
 }
