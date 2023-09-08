@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="style.css">
 <head>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
   </style>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
@@ -14,19 +14,22 @@
     
 </head>
 <body>
- 
-        <h1>Welcome to My Portfolio</h1>
-        <h2>A Full Stack Web Developer</h2>
-       
+        <!-- <h1>Portfolio of</h1> -->
+       <div class="head" id="head">
+           <h2>A Full Stack Web Developer</h2>
+       </div>
+     
+       <!-- Menu -->
         <div class="first">
-          <ol>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skill</li>
-            <li>Project</li>
-            <li>DOWnload cv</li>
+          <ol class="menu">
+           <a href="#head"> <li>Home</li></a>
+           <a href="#do"><li>About</li></a>
+            <a href="#did"><li>Skill</li></a>
+           <a href=""><li>Project</li></a>
+           <a href=""><li>DOWnload cv</li></a>
           </ol>
         </div>
+        <!-- Header -->
         <div class="intro">
           <p class="di">Let's Build Something together</p>
           <h3>Hi, I'm <span class="name">Mohammd Ismail </span>  </h1>
@@ -35,5 +38,40 @@
          <a href="#"><img class="git" src="./images/github.png" alt="github"></a>
          <a href="#"><img class="lin" src="./images/linkedin.png" alt="linkedin"></h3></a>
         </div>
+        <!-- about me -->
+        <div class="container">
+        <div class="about" id="do"> 
+                 <h5 class="me">ABOUT</h5>
+                 <h6 class="who">Who Am I</h6>
+            <p class="info">
+              A full stack developer is a software engineer who can work on both the front-end and back-end of a website or application.
+
+      Front-end developers are responsible for the design and functionality of the user interface, while back-end developers are responsible for the logic and data processing that happens behind the scenes.
+
+    Full stack developers need to have a strong understanding of both front-end and back-end technologies, as well as the ability to work independently and as part of a team.
+            </p>
+          </div>
+            <div class="photo">
+             <img class="test" src="./images/photo.jpg" alt="tehie">
+        </div>
+      </div>
+      <!-- skill section-->
+      <div class="skill">
+        <h5 class="naam" id="did"> SKILLS</h5>
+        <h6 class="kaam">What Can I Do</h6>
+
+              <div class="columns">
+               <div class="row"> HTML<img src="https://rahulrawat-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhtml.e89c02ec.png&w=128&q=75" alt="html"></div>
+               <div class="row1">css<img src="https://rahulrawat-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcss.7e16fac1.png&w=128&q=75" alt="css"></div>
+               <div class="row2">JS<img src="https://rahulrawat-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjavascript.c1c7776c.png&w=128&q=75" alt="JS"></div>
+               <div class="row3">tailwind<img src="https://rahulrawat-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftailwind.3c2dd1a9.png&w=128&q=75" alt="tailwind"></div>
+               <div class="row4">react<img src="https://rahulrawat-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freact.3ac94d47.png&w=128&q=75" alt="react"></div>
+               <div class="row5">nextjs<img src="https://rahulrawat-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnextjs.478ea462.png&w=128&q=75" alt="nextjs"></div>
+               <div class="row6">github<img src="https://rahulrawat-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgithub1.f0bbc6e8.png&w=128&q=75" alt="github"></div>
+               <div class="row7">vscode<img src="https://rahulrawat-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvscode.f5f53907.png&w=128&q=75" alt="vscode"></div>
+              </div>
+      </div>
+
+
 </body>
 </html>
