@@ -7,14 +7,14 @@ background-color: #222831;
 }
 
 
-/* h1{
-    /* background-color: #00ADB5;
+h1{
+     background-color: #00ADB5;
     font-family: 'Source Code Pro', monospace;
     font-size: xxx-large;
     text-align: center;
     font-size: 60px;
-   color: #F4EEFF; */
-/* } */ 
+   color: #F4EEFF; 
+} 
 .head{
    
     font-family: 'Rubik Iso', cursive;
@@ -23,14 +23,19 @@ background-color: #222831;
     margin-top: 0.1%;
 }
 h2{
-     background-color: #9A3B3B;
+    background-color: #9A3B3B;
+     
 }
 .first{
     color: #f2f2f2;
+    width: 80%; /* Adjust the width as needed */
+    
+    margin-left: auto;
+    margin-right: auto%;
 }
 .menu {
     
-    border: 2px solid #222831 ;
+    /* border: 2px solid #222831 ;
     display: flex;
     list-style-type: none;
     gap: 5%;
@@ -38,9 +43,20 @@ h2{
     text-transform: uppercase;
     margin-left: 50%;
     margin-top: 3%;
-    border-radius: 5cap;
+    border-radius: 5cap; */
+
+    border: 2px solid #222831;
+    display: flex;
+    list-style-type: none;
+    gap: 5%;
+    font-size: large;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0; /* Remove any default padding */
+    margin: 3% 0;
     
 }
+
 
 a{
     text-decoration: none;
@@ -60,6 +76,9 @@ a{
 h4,h3{
     text-align: center;
     font-size: xxx-large;
+}
+h4{
+    width: 100%;
 }
 .id, .di {
     text-align: center;
@@ -227,7 +246,7 @@ grid-template-columns: repeat(4,minmax(0,1fr));
 .rock{
   margin-top: 2rem;
     height: 250px;
-    width: 450px;
+    width: 350px;
     border: 10px solid #ecf0f3;
     border-radius: 10px;
     transition: .1s ;
@@ -269,12 +288,80 @@ grid-template-columns: repeat(4,minmax(0,1fr));
 }
 
 .demo-button {
-    background-color: #007bff; /* Customize the button's background color */
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s; /* Add a transition for smoother hover effect */
+    background-color: #007bff; /*Customize the button's background color */
+    border: none; 
+     border-radius: 5px;
+    transition: background-color 0.3s;  /* Add a transition for smoother hover effect*/
 }
 
 .contain:hover .overlay {
     display:flex;
 }
+.cal{
+    margin-top: 2rem;
+    height: 250px;
+    width: 350px;
+    border: 10px solid #ecf0f3;
+    border-radius: 10px;
+    transition: .1s ;
+
+}
+.profile{
+    margin-top: 2rem;
+    height: 250px;
+    width: 350px;
+    border: 10px solid #ecf0f3;
+    border-radius: 10px;
+    transition: .1s ;
+}
+/* Download button creating */
+.down{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #0074d9; 
+    color: #ffffff;
+    border: 2px solid #0056b3; 
+    border-radius: 20px; 
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, border 0.3s, box-shadow 0.3s;
+}
+.menu li{
+    background-color: transparent !important;
+}
+.down:hover{
+    background-color: #0056b3;
+  color: #ffffff; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+ /* resolution set */
+ @media (min-width:640px) {
+    h1 {
+      font-size:3rem;
+      line-height:1
+    }
+  }
+  @media (min-width:768px) {
+    h1 {
+      font-size:3.75rem;
+      line-height:1
+    }
+
+    @media (min-width:1024px) {
+        .lg\:h-screen {
+          height:100vh
+        }
+        .lg\:grid-cols-4 {
+          grid-template-columns:repeat(4,minmax(0,1fr))
+        }
+      }
+      @media (min-width:1536px) {
+        .\32xl\:px-16 {
+          padding-left:4rem;
+          padding-right:4rem
+        }
+      }
+      
+      
+      
